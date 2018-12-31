@@ -3,9 +3,7 @@
   "phone": "714-388-8314",
   "email": "sangbui51@yahoo.com",
   "about": "This is my personal resume page!!",
-  "summary":
-      "In 2011, I didn't know OOP, Java, C++, or game development tools. In 2013, I didn't know about JavaScript, Node or its ecosystem; web, iOS, or Android development. In 2015, I didn't know about React/Redux or functional programming. In 2017, I didn't know about Neural Nets or Reinforcement Learning. My biggest asset is not the languages or skills I had the pleasure of learning, but what I could learn.  Learning new programming paradigm, tools, and languages is my best skill."
-    ,
+  "summary": "In 2011, I didn't know OOP, Java, C++, or game development tools. In 2013, I didn't know about JavaScript, Node or its ecosystem; web, iOS, or Android development. In 2015, I didn't know about React/Redux or functional programming. In 2017, I didn't know about Neural Nets or Reinforcement Learning. My biggest asset is not the languages or skills I had the pleasure of learning, but what I could learn.  Learning new programming paradigm, tools, and languages is my best skill.",
   "education": [
     {
       "school_name": "WestWood College",
@@ -28,21 +26,51 @@
         "Code review for other developers. Defined product requirements and creates high-level architectural specifications, ensuring feasibility and functionality for a full web application. Architect a web application with React/Redux, python backend, Kerbereros Single Sign On Authentication system. Created Base of Estimate on how many hours/cost future project will take. Developed software and follows the company SDLC (Software Development Lifecycle), which includes Agile/Scrum sprint tasking and management using Jira/Gitlab. Worked on a Situational Awareness Web Application.  Help created a Selenium testing suite."
       ]
     }
-
   ],
   "skills": {
     "languages": [
-      "Java", "Android", "JavaScript", "React/Redux", "Node", "python", "Swift",
-      "C++", "C#", "HTML", "CSS", "Angular 1"
+      "Java",
+      "Android",
+      "JavaScript",
+      "React/Redux",
+      "Node",
+      "python",
+      "Swift",
+      "C++",
+      "C#",
+      "HTML",
+      "CSS",
+      "Angular 1"
     ],
-   "Misc": [
-     "Linux", "Redhat", "Windows", "Mac", "iOS",
-     "Coverity", "Fortify", "Selenium", "VMWare", "Jenkins",
-     "Ant", "Gradle", "Maven", "Docker", "AWS", "REST", "GraphQL",
-     "OOP", "functional programming", "apache httpd", "elasticsearch", "mysql",
-     "mongodb", "game development", "web development", "tensorflow", "openAI gym",
-     "dragon book"
-   ]
+    "misc": [
+      "Linux",
+      "Redhat",
+      "Windows",
+      "Mac",
+      "iOS",
+      "Coverity",
+      "Fortify",
+      "Selenium",
+      "VMWare",
+      "Jenkins",
+      "Ant",
+      "Gradle",
+      "Maven",
+      "Docker",
+      "AWS",
+      "REST",
+      "GraphQL",
+      "OOP",
+      "functional programming",
+      "apache httpd",
+      "elasticsearch",
+      "mysql",
+      "mongodb",
+      "game development",
+      "web development",
+      "tensorflow",
+      "openAI gym",
+      "dragon book"
+    ]
   }
-
 }
