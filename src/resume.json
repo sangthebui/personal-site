@@ -1,0 +1,79 @@
+{
+  "name": "Sang Bui",
+  "email": "sangbui51@yahoo.com",
+  "about": "I am software engineer.  I solve problems using software. I have experience making software in web development, Android development, and some iOS development.  In addition, I have worked in devOps.  I am interested in all things Computer Science.  As a result, I have read about topics such as OOP, functional programming, computer graphics, compilers, encryptions, game development, neural networks, and reinforcement learning. Lastly, I enjoyed learning about Math; I have studied Discrete Math, Linear Algebra, and Category Theory",
+  "summary": "In 2011, I didn't know OOP, Java, C++, or game development tools. In 2014, I didn't know about JavaScript, Node or its ecosystem; web, iOS, or Android development. In 2016, I didn't know about React/Redux or functional programming. In 2017, I didn't know about Neural Nets or Reinforcement Learning. My biggest asset is not the languages or skills I had the pleasure of learning, but what I could learn.  Learning new programming paradigms, tools, and languages is my best skill.",
+  "experiences": [
+    {
+      "company": "Northrop Grumman",
+      "from": "June 2015",
+      "to": "Present",
+      "position": "Software Engineer",
+      "description":
+        "Code review for other developers. Defined product requirements and creates high-level architectural specifications, ensuring feasibility and functionality for a full web application. Architect a web application with React/Redux, python backend, Kerbereros Single Sign On Authentication system. Created Base of Estimate on how many hours/cost future project will take. Developed software and follows the company SDLC (Software Development Lifecycle), which includes Agile/Scrum sprint tasking and management using Jira/Gitlab. Worked on a Situational Awareness Web Application.  Help created a Selenium testing suite."
+    }
+  ],
+  "education": [
+    {
+      "school_name": "National University",
+      "year": "2015",
+      "degree": "Master of Science in Computer Science",
+      "description": "I refined my background in Computer Science. I study deeply about data structures, algorithms, operating systems, databases, and software engineering.  I picked up SQL, JavaScript, Java for Android, and Swift for iOS."
+    },
+    {
+      "school_name": "WestWood College",
+      "year": "2014",
+      "degree": "Bachelor Game Software Development",
+      "description": "I learn about Java, C++, and C# to make games.  I used OpenGL, DirectX, and Unity game engine. Since I graduated, I have not work in the game industry at all; however, I still retained some of those skills.  Unfortunately, I have not update my resume for game development; however, I could probably refresh myself if needed."
+    }
+
+  ],
+  "skills": {
+    "languages": [
+      "Java",
+      "Android",
+      "JavaScript",
+      "React/Redux",
+      "Node",
+      "python",
+      "Swift",
+      "C++",
+      "C#",
+      "HTML",
+      "CSS",
+      "Angular 1"
+    ],
+    "misc": [
+      "Linux",
+      "Redhat",
+      "Windows",
+      "Mac",
+      "iOS",
+      "Coverity",
+      "Fortify",
+      "Selenium",
+      "VMWare",
+      "Jenkins",
+      "Ant",
+      "Gradle",
+      "Maven",
+      "Docker",
+      "AWS",
+      "REST",
+      "GraphQL",
+      "OOP",
+      "functional programming",
+      "apache httpd",
+      "elasticsearch",
+      "mysql",
+      "mongodb",
+      "game development",
+      "web development",
+      "tensorflow",
+      "openAI gym",
+      "dragon book"
+    ]
+  },
+  "linkedIn": "https://www.linkedin.com/in/sang-bui-6926294a",
+  "github": "https://github.com/sangthebui"
+}
