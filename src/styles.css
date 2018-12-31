@@ -2,6 +2,13 @@ body {
     background: #F3EFE0;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+#id {
+    background: #F3EFE0;
+}
 
 .container {
     padding: 40px 180px;
@@ -32,4 +39,10 @@ footer {
     line-height: 60px;
     background-color: #434242;
     padding-bottom: 25px;
+}
+
+.firstLetter:first-letter {
+    color: #22A39F;
+    font-size: 50px;
+    line-height: 1em;
 }

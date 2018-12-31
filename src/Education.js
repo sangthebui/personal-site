@@ -17,11 +17,13 @@ const Education = ({education}) => {
     ));
 
     return (
-        <Container>
-            <h2>Education</h2>
-            <hr />
-            {educationViews}
-        </Container>
+        <div style={{background: "#F3EFE0"}}>
+            <Container>
+                <h2>Education</h2>
+                <hr />
+                {educationViews}
+            </Container>
+        </div>
     )
 };
 
