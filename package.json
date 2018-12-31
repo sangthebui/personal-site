@@ -2,7 +2,7 @@
   "name": "personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/sangthebui/personal-site",
+  "homepage": "https://sangthebui.github.io/personal-site",
   "dependencies": {
     "bootstrap": "4",
     "feather-icons-react": "^0.3.0",
