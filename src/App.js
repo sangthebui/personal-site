@@ -15,18 +15,22 @@ import Footer from './Footer';
 
 class App extends Component {
     render() {
-        const { name, phone, email, summary,
-          education, about, experiences,
-          skills
+        const {
+            name,
+            about,
+            experiences,
+            education,
+            skills,
+            email, summary, linkedIn, github,
         } = Resume;
         return (
             <>
-                <Intro />
-                <Profile />
-                <Experiences />
-                <Skills />
-                <Education/>
-                <Footer />
+                <Intro name={name}/>
+                <Profile about={about}/>
+                <Experiences experiences={experiences} />
+                <Education education={education}/>
+                <Skills skills={skills}/>
+                <Footer email={email} summary={summary} linkedIn={linkedIn} github={github} />
             </>
         );
     }

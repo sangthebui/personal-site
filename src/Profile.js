@@ -1,17 +1,21 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
+import SangBui from './images/Sang_Bui.jpg';
 
-const Profile = () => (
+
+const Profile = ({about}) => (
     <Container>
         <h2>Profile</h2>
         <hr />
         <Row>
             <Col>
                 <h3>About me</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad amet, asperiores autem consectetur dolorem, hic laboriosam mollitia nam nesciunt porro possimus provident quae quaerat quia, quis sapiente? Non, quam?</p>
+                <p style={{textIndent: "40px"}}>{about}</p>
             </Col>
-            <Col>Image will be here</Col>
+            <Col>
+                <img src={SangBui} style={{width: "100%", borderRadius: "50%"}}/>
+            </Col>
         </Row>
     </Container>
 );
