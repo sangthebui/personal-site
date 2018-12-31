@@ -5,11 +5,11 @@ import { Container, Row, Col } from 'reactstrap';
 const Experiences = ({experiences})=> {
     const experiencesView = experiences.map(({company, from, to, position, description}) => (
         <Row>
-            <Col xs="3">
+            <Col sm="12" md="12" lg="3">
                 <h4>{company}</h4>
                 <p>{from} - {to}</p>
             </Col>
-            <Col>
+            <Col sm="12" md="12" lg="9">
                 <h4>{position}</h4>
                 <p >{description}</p>
             </Col>

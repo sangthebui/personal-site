@@ -12,11 +12,11 @@ const Skills = ({skills}) => {
                 <h2>Skills</h2>
                 <hr />
                 <Row>
-                    <Col>
+                    <Col sm="12" md="12" lg="3">
                         <h4>Languages:</h4>
                         <p>{languages.join(", ")}</p>
                     </Col>
-                    <Col>
+                    <Col sm="12" md="12" lg="9">
                         <h4>Misc:</h4>
                         <p>{misc.join(", ")}</p>
                     </Col>

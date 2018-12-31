@@ -5,11 +5,11 @@ const Education = ({education}) => {
 
     const educationViews = education.map(({school_name, year, degree, description}) => (
         <Row>
-            <Col xs="3">
+            <Col sm="12" md="12" lg="3">
                 <h4>{school_name}</h4>
                 <p>{year}</p>
             </Col>
-            <Col>
+            <Col sm="12" md="12" lg="9">
                 <h4>{degree}</h4>
                 <p>{description}</p>
             </Col>

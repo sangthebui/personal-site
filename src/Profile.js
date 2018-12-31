@@ -10,11 +10,11 @@ const Profile = ({about}) => (
             <h2>Profile</h2>
             <hr />
             <Row>
-                <Col>
+                <Col sm="12" md="12" lg="6">
                     <h3>About me</h3>
                     <p className="firstLetter" style={{textIndent: "40px"}}>{about}</p>
                 </Col>
-                <Col>
+                <Col sm="12" md="12" lg="6">
                     <img src={SangBui} style={{width: "100%", borderRadius: "50%"}}/>
                 </Col>
             </Row>
