@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Education = ({education}) => {
 
-    const educationViews = education.map(({school_name, year, degree, description}) => (
-        <Row>
+    const educationViews = education.map(({school_name, year, degree, description}, index) => (
+        <Row key={index}>
             <Col sm="12" md="12" lg="3">
                 <h4>{school_name}</h4>
                 <p>{year}</p>

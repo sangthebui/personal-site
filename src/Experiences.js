@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'reactstrap';
 
 
 const Experiences = ({experiences})=> {
-    const experiencesView = experiences.map(({company, from, to, position, description}) => (
-        <Row>
+    const experiencesView = experiences.map(({company, from, to, position, description}, index) => (
+        <Row key={index}>
             <Col sm="12" md="12" lg="3">
                 <h4>{company}</h4>
                 <p>{from} - {to}</p>
